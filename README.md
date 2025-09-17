@@ -19,7 +19,7 @@ This project is a full-stack microservice-based application built using **Node.j
 
 ## 🔐 Test Credentials
 
- **Student 1**  
+- **Student 1**  
   Email: `tanishq@example.com`  
   Password: `Tanishq`
 
