@@ -11,8 +11,22 @@ const cors=require('cors')
 const app=express()
 
 // cors
+const allowedOrigins = [
+  'https://edviron-portal.vercel.app',
+  'https://edviron-portal-git-main-bandikantichaitanyas-projects.vercel.app',
+  'http://localhost:5173',
+  'http://localhost:5174'
+];
+
 app.use(cors({
-    origin:'http://localhost:5173',
+    origin:  function(origin, callback){
+    if(!origin) return callback(null, true); // allow REST clients like Postman
+    if(allowedOrigins.includes(origin)){
+      return callback(null, true);
+    } else {
+      return callback(new Error('Not allowed by CORS'), false);
+    }
+  },
     credentials:true
 }))
 // middleware

@@ -2,7 +2,7 @@
 
 This project is a full-stack microservice-based application built using **Node.js (Express)** and **React** for managing **school payment transactions**.
 
-## Live Demo[https://chatgpt.com/]
+## [**Live Demo**](https://edviron-portal.vercel.app/)
 
 ## 🚀 Features
 
@@ -14,6 +14,18 @@ This project is a full-stack microservice-based application built using **Node.j
 - ✅ Protected routes
 - ✅ Manual & real-time payment status update
 
+
+---
+
+## 🔐 Test Credentials
+
+ **Student 1**  
+  Email: `tanishq@example.com`  
+  Password: `Tanishq`
+
+- **Student 2**  
+  Email: `ayesha@example.com`  
+  Password: `Ayesha`
 
 ---
 
@@ -37,11 +49,5 @@ This project is a full-stack microservice-based application built using **Node.j
 
 ---
 
-## 🔐 Test Credentials
 
-Email: tanishq@example.com
-Password: Tanishq
-
-Email: ayesha@example.com
-Password: Ayesha
 

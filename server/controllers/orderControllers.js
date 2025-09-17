@@ -21,7 +21,7 @@ const createOrder = async (req, res) => {
     });
 
     // 2. Generate payment link using external API
-    const callback_url = "http://localhost:5173/payment-status"; // replace with your frontend
+    const callback_url = "https://edviron-portal.vercel.app/payment-status"; // replace with your frontend
     const payment = await createCollectRequest({
       school_id,
       amount: String(amount),
